@@ -4,7 +4,7 @@
             "outputFile": "com.example.mock_app-mergeDebugResources-24:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/mohammedyasir/VSCode projects/mock_app/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/mohammedyasir/Documents/GitHub/mock_app/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

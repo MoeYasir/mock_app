@@ -18,10 +18,10 @@ com.example.mock_app-jetified-startup-runtime-1.1.1-16 /Users/mohammedyasir/.gra
 com.example.mock_app-jetified-annotation-experimental-1.4.0-17 /Users/mohammedyasir/.gradle/caches/transforms-3/c4537ab9015740d05f09a422063523a5/transformed/jetified-annotation-experimental-1.4.0/res
 com.example.mock_app-fragment-1.7.1-18 /Users/mohammedyasir/.gradle/caches/transforms-3/ca4d40f38b71d4c621d36eba6fe2f4a4/transformed/fragment-1.7.1/res
 com.example.mock_app-jetified-tracing-1.2.0-19 /Users/mohammedyasir/.gradle/caches/transforms-3/e896b9ac412a8814559a776dc7b5a420/transformed/jetified-tracing-1.2.0/res
-com.example.mock_app-debug-20 /Users/mohammedyasir/VSCode projects/mock_app/android/app/src/debug/res
-com.example.mock_app-main-21 /Users/mohammedyasir/VSCode projects/mock_app/android/app/src/main/res
-com.example.mock_app-pngs-22 /Users/mohammedyasir/VSCode projects/mock_app/build/app/generated/res/pngs/debug
-com.example.mock_app-resValues-23 /Users/mohammedyasir/VSCode projects/mock_app/build/app/generated/res/resValues/debug
-com.example.mock_app-packageDebugResources-24 /Users/mohammedyasir/VSCode projects/mock_app/build/app/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.example.mock_app-packageDebugResources-25 /Users/mohammedyasir/VSCode projects/mock_app/build/app/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.example.mock_app-merged_res-26 /Users/mohammedyasir/VSCode projects/mock_app/build/app/intermediates/merged_res/debug
+com.example.mock_app-debug-20 /Users/mohammedyasir/Documents/GitHub/mock_app/android/app/src/debug/res
+com.example.mock_app-main-21 /Users/mohammedyasir/Documents/GitHub/mock_app/android/app/src/main/res
+com.example.mock_app-pngs-22 /Users/mohammedyasir/Documents/GitHub/mock_app/build/app/generated/res/pngs/debug
+com.example.mock_app-resValues-23 /Users/mohammedyasir/Documents/GitHub/mock_app/build/app/generated/res/resValues/debug
+com.example.mock_app-packageDebugResources-24 /Users/mohammedyasir/Documents/GitHub/mock_app/build/app/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.mock_app-packageDebugResources-25 /Users/mohammedyasir/Documents/GitHub/mock_app/build/app/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.mock_app-merged_res-26 /Users/mohammedyasir/Documents/GitHub/mock_app/build/app/intermediates/merged_res/debug

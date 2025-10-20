@@ -61,7 +61,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mohammedyasir/VSCode projects/mock_app/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/mohammedyasir/Documents/GitHub/mock_app/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
