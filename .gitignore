@@ -1,0 +1,74 @@
+# Miscellaneous
+*.class
+*.lock
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# Flutter/Dart
+/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+pubspec.lock
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+app.iml
+modules.xml
+
+# iOS
+/ios/Pods/
+/ios/Flutter/App.framework
+/ios/Flutter/engine.xcframework
+/ios/Flutter/flutter_assets/
+/ios/.symlinks/
+/ios/Runner.xcworkspace/
+/ios/Runner/GeneratedPluginRegistrant.h
+/ios/Runner/GeneratedPluginRegistrant.m
+/ios/Flutter/Debug.xcconfig
+/ios/Flutter/Release.xcconfig
+/ios/Generated.xcconfig
+
+# Android
+/android/.gradle/
+/android/app/build/
+/android/build/
+/android/local.properties
+/android/.idea/
+*.jks
+*.keystore
+
+# Web
+/web/build/
+
+# Windows
+/windows/build/
+/windows/flutter/ephemeral
+/windows/runner/Debug/
+/windows/runner/Profile/
+/windows/runner/Release/
+
+# Linux
+/linux/build/
+/linux/flutter/ephemeral
+/linux/CMakeLists.txt.user
+
+# macOS
+/macos/build/
+/macos/Flutter/ephemeral
+/macos/Pods/
+/macos/.symlinks
+/macos/Runner.xcworkspace
