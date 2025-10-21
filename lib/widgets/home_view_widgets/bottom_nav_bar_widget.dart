@@ -15,7 +15,7 @@ class BottomNavBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.fromLTRB(110.w, 0, 110.w, 10.h),
+      padding: EdgeInsets.fromLTRB(100.w, 0, 100.w, 10.h),
       child: Container(
         padding: const EdgeInsets.symmetric(vertical: 10.0),
         decoration: BoxDecoration(

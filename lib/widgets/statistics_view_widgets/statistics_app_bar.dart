@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:mock_app/app/app_colors.dart';
 import 'package:mock_app/app/app_text_styles.dart';
 
