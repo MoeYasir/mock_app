@@ -17,7 +17,7 @@ To get a local copy up and running, please follow these simple steps.
 
 1.  **Clone the repository:**
     ```sh
-    git clone [YOUR GITHUB REPO URL]
+    git clone https://github.com/MoeYasir/mock_app/
     ```
 
 2.  **Navigate to the project directory:**
