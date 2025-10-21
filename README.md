@@ -1,16 +1,38 @@
-# mock_app
+# TuesdayMarkets - Flutter UI Developer Assessment
 
-A new Flutter project.
+This repository contains the Flutter application developed for the technical assessment from TuesdayMarkets.
 
-## Getting Started
+The primary goal was to create a pixel-perfect replica of the provided wallet and statistics UI designs.
 
-This project is a starting point for a Flutter application.
+## 🚀 How to Run the Project
 
-A few resources to get you started if this is your first Flutter project:
+To get a local copy up and running, please follow these simple steps.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Prerequisites
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-   Flutter SDK (version 3.0.0 or higher recommended)
+-   An IDE like Android Studio or VS Code with the Flutter plugin installed.
+
+### Setup and Execution
+
+1.  **Clone the repository:**
+    ```sh
+    git clone [YOUR GITHUB REPO URL]
+    ```
+
+2.  **Navigate to the project directory:**
+    ```sh
+    cd mock_app 
+    ```
+
+3.  **Install all the required dependencies:**
+    ```sh
+    flutter pub get
+    ```
+
+4.  **Run the application:**
+    ```sh
+    flutter run
+    ```
+
+The app should now build and run on your connected device or emulator. Thank you for the opportunity.
