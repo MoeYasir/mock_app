@@ -8,7 +8,7 @@ import 'package:mock_app/widgets/home_view_widgets/bottom_nav_bar_widget.dart';
 import 'package:mock_app/widgets/statistics_view_widgets/chart_section.dart';
 import 'package:mock_app/widgets/statistics_view_widgets/income_spending_toggle.dart';
 import 'package:mock_app/widgets/statistics_view_widgets/payment_section.dart';
-import 'package:mock_app/widgets/statistics_view_widgets/statistics_app_bar.dart'; // The reusable nav bar
+import 'package:mock_app/widgets/statistics_view_widgets/statistics_app_bar.dart';
 
 class StatisticsScreen extends GetView<StatisticsController> {
   const StatisticsScreen({super.key});
@@ -43,7 +43,6 @@ class StatisticsScreen extends GetView<StatisticsController> {
             child: Obx(
               () => BottomNavBar(
                 selectedIndex: controller.selectedNavIndex.value,
-                onIndexChanged: (index) => controller.changeNavIndex(index),
               ),
             ),
           ),

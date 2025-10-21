@@ -18,15 +18,10 @@ class StatisticsAppBar extends StatelessWidget implements PreferredSizeWidget {
             color: AppColors.itemColors,
             shape: BoxShape.circle,
           ),
-          child: GestureDetector(
-            onTap: () {
-              Get.back();
-            },
-            child: const Icon(
-              Icons.arrow_back_ios_new_rounded,
-              color: Colors.white,
-              size: 18,
-            ),
+          child: const Icon(
+            Icons.arrow_back_ios_new_rounded,
+            color: Colors.white,
+            size: 18,
           ),
         ),
       ),

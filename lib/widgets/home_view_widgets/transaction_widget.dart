@@ -40,14 +40,36 @@ class TransactionList extends GetView<HomeController> {
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(20)),
               tileColor: AppColors.itemColors,
-              leading: Container(
+
+              // --- START: THE FINAL, GUARANTEED FIX ---
+              leading: SizedBox(
+                // Explicitly define the size of the leading area
+                width: 40,
+                height: 40,
+                child: Container(
                   padding: const EdgeInsets.all(8),
                   decoration: const BoxDecoration(
                     color: AppColors.white,
                     shape: BoxShape.circle,
                   ),
-                  child: Image.asset("assets/amazon.jpg",
-                      width: 24, height: 24, fit: BoxFit.cover)),
+                  child: item.logoAsset.contains('assets/')
+                      ? ClipOval(
+                          child: Image.asset(
+                            item.logoAsset,
+                            width: 24,
+                            height: 24,
+                            fit: BoxFit.cover,
+                          ),
+                        )
+                      : const Icon(
+                          Icons.school,
+                          color: Colors.black,
+                          size: 24,
+                        ),
+                ),
+              ),
+              // --- END: FIX ---
+
               title: Text(item.title, style: AppTextStyles.bodyText1Bold),
               subtitle: Text(item.time, style: AppTextStyles.subtleText2),
               trailing: Column(

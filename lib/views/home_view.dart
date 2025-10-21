@@ -61,8 +61,6 @@ class HomeScreen extends GetView<HomeController> {
               child: Obx(
                 () => BottomNavBar(
                   selectedIndex: controller.selectedNavIndex.value,
-                  onIndexChanged: (index) =>
-                      controller.selectedNavIndex.value = index,
                 ),
               ),
             ),

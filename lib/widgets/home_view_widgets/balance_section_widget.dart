@@ -19,11 +19,7 @@ class BalanceSectionWidget extends StatelessWidget {
             color: AppColors.purple,
             shape: BoxShape.circle,
           ),
-          child: GestureDetector(
-              onTap: () {
-                Get.toNamed(Routes.statistics);
-              },
-              child: const Icon(Icons.add, color: AppColors.white, size: 30)),
+          child: const Icon(Icons.add, color: AppColors.white, size: 30),
         ),
       ],
     );

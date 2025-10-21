@@ -1,26 +1,25 @@
 import 'package:flutter/material.dart';
-
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
 import 'package:mock_app/app/app_colors.dart';
+import 'package:mock_app/app/routes.dart';
 
 class BottomNavBar extends StatelessWidget {
   final int selectedIndex;
-  final Function(int) onIndexChanged;
 
   const BottomNavBar({
     super.key,
     required this.selectedIndex,
-    required this.onIndexChanged,
   });
 
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.fromLTRB(100.w, 0, 100.w, 10.h),
+      padding: EdgeInsets.fromLTRB(110.w, 0, 110.w, 10.h),
       child: Container(
         padding: const EdgeInsets.symmetric(vertical: 10.0),
         decoration: BoxDecoration(
-          color: AppColors.bottomNavBarColor,
+          color: const Color(0xFF1F1F2E),
           borderRadius: BorderRadius.circular(25.0),
         ),
         child: Row(
@@ -37,8 +36,25 @@ class BottomNavBar extends StatelessWidget {
 
   Widget _buildNavIcon({required IconData icon, required int index}) {
     final isSelected = index == selectedIndex;
+
+    void handleNavigation() {
+      if (isSelected) return;
+
+      switch (index) {
+        case 0:
+          Get.offAllNamed(Routes.home);
+          break;
+        case 1:
+          Get.offAllNamed(Routes.statistics);
+          break;
+        case 2:
+          Get.snackbar("Navigation", "Page not implemented yet.");
+          break;
+      }
+    }
+
     return GestureDetector(
-      onTap: () => onIndexChanged(index),
+      onTap: handleNavigation,
       child: Container(
         padding: const EdgeInsets.all(12.0),
         decoration: BoxDecoration(

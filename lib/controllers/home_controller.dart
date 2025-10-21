@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:mock_app/app/app_colors.dart'; // Ensure you have this file with the icon colors
 
 class SavingPlanItem {
   final IconData icon;
@@ -50,19 +51,19 @@ class HomeController extends GetxController {
         icon: Icons.laptop_mac,
         title: 'Buy Macbook',
         progress: '\$80k / \$100k',
-        iconColor: const Color(0xFFB952E1),
+        iconColor: AppColors.savingPlanIcon1,
       ),
       SavingPlanItem(
         icon: Icons.bar_chart_rounded,
         title: 'Investment',
         progress: '\$200k',
-        iconColor: const Color(0xFFEC5282),
+        iconColor: AppColors.savingPlanIcon2,
       ),
       SavingPlanItem(
         icon: Icons.home_work_outlined,
         title: 'New Home',
         progress: '\$400k',
-        iconColor: const Color(0xFFF39A3E),
+        iconColor: AppColors.savingPlanIcon3,
       ),
     ]);
   }
@@ -70,13 +71,16 @@ class HomeController extends GetxController {
   void _loadTransactionData() {
     transactionItems.assignAll([
       TransactionItem(
-        logoAsset: 'assets/images/amazon_logo.png',
+        // --- THIS IS THE DEFINITIVE FIX ---
+        // The path now correctly points to your file in the `assets` folder.
+        logoAsset: 'assets/amazon.jpg',
         title: 'Amazon',
         time: '09:48',
         amount: '-102.00',
         category: 'Shopping',
       ),
       TransactionItem(
+        // This will correctly trigger the fallback Icon in your widget
         logoAsset: 'education_logo',
         title: 'Education',
         time: '08:12',
