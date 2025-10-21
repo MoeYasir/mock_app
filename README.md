@@ -8,12 +8,12 @@ The primary goal was to create a pixel-perfect replica of the provided wallet an
 
 ## Final Result
 
-| Home Screen |
+### Home Screen
 <img width="1080" height="2400" alt="Screenshot_1761018238" src="https://github.com/user-attachments/assets/61fad7c7-a899-48ec-9778-20979e2f2e56" />
 
 
 
-| Statistics Screen |
+### Statistics Screen
 <img width="1080" height="2400" alt="Screenshot_1761018249" src="https://github.com/user-attachments/assets/3bafd547-a7b9-4d0b-8c24-c59251da29db" />
 
 ---
